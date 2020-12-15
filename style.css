@@ -99,6 +99,7 @@ body {
 }
 
 .button-default {
+    position: absolute;
     background-color: cornsilk;
     border: 3px solid greenyellow;
     color:green;
@@ -106,7 +107,7 @@ body {
     border-radius: 5px;
     font-size: .8em;
     float: right;
-    margin-right: 650px;
+    margin-left: 93px;
     margin-top: 620px;
     width: auto;
     transition: all .5s;
@@ -114,9 +115,9 @@ body {
 }
 
 .button-default-stroke:hover {
-    color: darkgreen;
+    background-color: darkgreen;
     border-color:white;
-    background-color: white;
+    color: white;
 }
 
 #results{    
