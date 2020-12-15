@@ -1,0 +1,146 @@
+
+#board {
+    position: relative;
+    border-collapse: collapse;
+    width: 900px;
+    height: 680px;
+}
+
+td {
+    text-align: center;
+    width: 5%;
+    height: 5%;
+}
+
+/* img{
+    position: absolute;
+    width: 900px;
+    height: 700px;
+} */
+#img1 {
+    position: absolute;
+    margin-top: -110px;
+    margin-left: 0px;
+    width: 830px;
+    height: 400px;
+}
+
+#img2 {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 69px;
+    width: 830px;
+    height: 400px;
+}
+
+#img3 {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 0px;
+    width: 830px;
+    height: 400px;
+}
+
+#img4 {
+    position: absolute;
+    margin-top: 360px;
+    margin-left: 69px;
+    width: 830px;
+    height: 400px;
+}
+
+#explanation {
+    display: grid;    
+    margin-left: 1000px;
+    margin-top: -650px;
+    width: 300px;
+    height: 300px;
+}
+
+fieldset {
+    border: 10px solid transparent;
+    border-top-color: black;
+    box-sizing: border-box;
+    grid-area: 1 / 1;
+    padding: 20px;
+    width: inherit;
+}
+
+fieldset:nth-of-type(1) {
+    font-size: 20px;
+    background: mistyrose;
+}
+
+fieldset:nth-of-type(2) {
+    transform: rotate(90deg);
+}
+
+fieldset:nth-of-type(3) {
+    transform: rotate(180deg);
+}
+
+fieldset:nth-of-type(4) {
+    transform: rotate(-90deg);
+}
+
+legend {
+    font: 15pt/0 'Averia Serif Libre';
+    margin: auto;
+    padding: 0 4px;
+}
+
+fieldset:nth-of-type(3)>legend {
+    transform: rotate(180deg);
+}
+
+body {
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.button-default {
+    background-color: cornsilk;
+    border: 3px solid greenyellow;
+    color:green;
+    padding: .75em 1.5em;
+    border-radius: 5px;
+    font-size: .8em;
+    float: right;
+    margin-right: 650px;
+    margin-top: -60px;
+    width: auto;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.button-default-stroke:hover {
+    color: darkgreen;
+    border-color:white;
+    background-color: white;
+}
+
+#results{    
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    margin-left: 1070px;
+    margin-top: -130px    
+}
+
+#results, #td0, #td01{
+    border: 1px solid black;
+    padding: 0px;
+    height: 50px;
+}
+
+#td1, #td2{
+    height: 50px;
+    font-size: 30px;
+}
+
+.fa-hiking{
+    font-size: 36px;
+    padding: 0;
+    margin: 0;
+}
+
